@@ -43,3 +43,4 @@ button.onclick = function () {
     alert(variavel.greet());
 };
 document.body.appendChild(button);
+//# sourceMappingURL=types.js.map
