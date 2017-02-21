@@ -1,12 +1,16 @@
-import {Animal} from './animal';
+import { Animal } from './animal';
 
+
+//Herança
 export class Cavalo extends Animal {
 
-    constructor(nome: string){
+    constructor(nome: string) {
         super(nome);
     }
 
-    public mover(distanciaEmMetros: number): void{
+
+    //Sobrescrevendo o método
+    public mover(distanciaEmMetros: number): void {
         console.log("Galopando...");
         super.mover(distanciaEmMetros);
     }

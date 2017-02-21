@@ -5,11 +5,13 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var animal_1 = require("./animal");
+//Herança
 var Cavalo = (function (_super) {
     __extends(Cavalo, _super);
     function Cavalo(nome) {
         return _super.call(this, nome) || this;
     }
+    //Sobrescrevendo o método
     Cavalo.prototype.mover = function (distanciaEmMetros) {
         console.log("Galopando...");
         _super.prototype.mover.call(this, distanciaEmMetros);

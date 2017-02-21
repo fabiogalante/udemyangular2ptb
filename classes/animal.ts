@@ -1,15 +1,19 @@
-export class  Animal{
+
+//Classe
+export class Animal {
 
     private nome: string;
 
-    constructor(nome: string){
-         this.nome = nome;
+    //Construtor
+    constructor(nome: string) {
+        this.nome = nome;
     }
 
 
-    public mover(distanciaEmMetros: number): void{
+    //Método que retorna void
+    public mover(distanciaEmMetros: number): void {
         console.log(`${this.nome} moveu ${distanciaEmMetros}m`)
     }
 
-    
+
 }

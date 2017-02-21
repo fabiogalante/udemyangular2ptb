@@ -1,8 +1,10 @@
+//Imports
 import { Animal } from './animal';
 import { Cavalo } from './cavalo';
 
-let a = new Animal("Rex");
 
+//Criaão do objeto Animal
+let a = new Animal("Rex");
 a.mover(15);
 
 let c = new Cavalo('Titã')
